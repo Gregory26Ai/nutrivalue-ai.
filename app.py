@@ -106,9 +106,7 @@ if not df.empty:
     st.success("Top ranked product: " + df.iloc[0]["Product"])
 
 st.caption(
-
     "Prototype only. Prices and nutrition values are "
-
     "illustrative, with no standardised serving sizes. "
-
-    "Not medical advice or verified retaile
+    "Not medical advice or verified retailer data."
+)
