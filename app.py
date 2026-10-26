@@ -63,7 +63,7 @@ m4.metric('Supermarkets', filtered.supermarket.nunique())
 
 st.header('Best nutrition value products')
 st.write("Available columns:", filtered.columns.tolist())
-view = filtered[['product','supermarket','package_g','price_aud','price_100g','protein_g_100g','fibre_g_100g','sugar_g_100g','energy_kcal_100g','protein_per_dollar','fibre_per_dollar']].rename(columns={
+view = filtered[['product','supermarket','package_g','price_aud','price_100g','protein_g_100g','fibre_g_100g','protein_per_dollar','fibre_per_dollar']].rename(columns={
 'product':'Product','supermarket':'Supermarket','package_g':'Pack (g)','price_aud':'Price (AUD)','price_100g':'Price / 100g (AUD)','protein_g_100g':'Protein / 100g','fibre_g_100g':'Fibre / 100g','sugar_g_100g':'Sugar / 100g','energy_kcal_100g':'kcal / 100g','protein_per_dollar':'Protein g / $','fibre_per_dollar':'Fibre g / $'})
 st.dataframe(view, hide_index=True, use_container_width=True)
 st.download_button('Download filtered sample CSV', filtered.to_csv(index=False).encode('utf-8'), 'nutrivalue_filtered_sample.csv', 'text/csv')
