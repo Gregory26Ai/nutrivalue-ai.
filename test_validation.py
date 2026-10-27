@@ -1,5 +1,5 @@
 import pandas as pd
-from scripts.validate_import import validate_products, validate_offers
+from validate_import import validate_products, validate_offers
 
 def test_empty_imports():
     products = pd.DataFrame(columns=["product_id", "brand", "product_name", "category_id", "source_url", "source_checked_at", "verification_status"])
