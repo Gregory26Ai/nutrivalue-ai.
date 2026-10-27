@@ -13,9 +13,9 @@ st.info("Product catalogue is being built. Missing retailer prices are never est
 
 @st.cache_data(ttl=3600)
 def load_data():
-    products = pd.read_csv(ROOT / "data/products.csv", dtype={"barcode": "string", "artg_id": "string"})
-    offers = pd.read_csv(ROOT / "data/offers.csv")
-    categories = pd.read_csv(ROOT / "data/categories.csv")
+    products = pd.read_csv(ROOT / "products.csv", dtype={"barcode": "string", "artg_id": "string"})
+    offers = pd.read_csv(ROOT / "offers.csv")
+    categories = pd.read_csv(ROOT / "categories.csv")
     return products, offers, categories
 
 products, offers, categories = load_data()
