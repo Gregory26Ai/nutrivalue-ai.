@@ -58,9 +58,9 @@ def validate_offers(df, product_ids):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--products", default="data/products.csv")
-    parser.add_argument("--offers", default="data/offers.csv")
-    parser.add_argument("--categories", default="data/categories.csv")
+    parser.add_argument("--products", default="products.csv")
+    parser.add_argument("--offers", default="offers.csv")
+    parser.add_argument("--categories", default="categories.csv")
     args = parser.parse_args()
     products, offers, categories = (pd.read_csv(Path(path)) for path in (args.products, args.offers, args.categories))
     errors = validate_products(products, set(categories["category_id"])) + validate_offers(offers, set(products["product_id"]))
