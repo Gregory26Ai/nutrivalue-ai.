@@ -1,0 +1,51 @@
+category_id,group,category
+1,Everyday groceries,Oats and porridge
+2,Everyday groceries,Breakfast cereals
+3,Everyday groceries,Rice
+4,Everyday groceries,Pasta
+5,Everyday groceries,Grains and flour
+6,Everyday groceries,Beans and lentils
+7,Everyday groceries,Nuts
+8,Everyday groceries,Seeds
+9,Everyday groceries,Fresh fruit
+10,Everyday groceries,Fresh vegetables
+11,Everyday groceries,Frozen fruit and vegetables
+12,Everyday groceries,Milk and dairy
+13,Everyday groceries,Yoghurt and kefir
+14,Everyday groceries,Cheese and eggs
+15,Everyday groceries,Meat and poultry
+16,Everyday groceries,Fish and seafood
+17,Everyday groceries,Plant protein foods
+18,Everyday groceries,Canned and pantry foods
+19,Everyday groceries,Snacks
+20,Everyday groceries,Beverages
+21,Powders,Whey concentrate
+22,Powders,Whey isolate and casein
+23,Powders,Plant protein powders
+24,Powders,Creatine and collagen
+25,Superfoods,Greens powders
+26,Superfoods,Matcha and tea powders
+27,Superfoods,Cacao and botanical powders
+28,Superfoods,Superfood seeds and blends
+29,Supplements,Vitamins
+30,Supplements,Minerals
+31,Supplements,Omega oils
+32,Supplements,Probiotics and fibre supplements
+33,Supplements,Other specialist supplements
+34,Sports nutrition,Protein bars
+35,Sports nutrition,Electrolytes and hydration
+36,Sports nutrition,Energy gels and carbohydrate mixes
+37,Sports nutrition,Recovery and pre-workout
+38,Functional foods,Fermented foods
+39,Functional foods,Prebiotic foods
+40,Functional foods,Functional drinks
+41,Specialist diets,Gluten-free
+42,Specialist diets,Low-sugar
+43,Specialist diets,Low-sodium
+44,Specialist diets,Lactose-free
+45,Specialist diets,Plant-based alternatives
+46,Specialist diets,High-protein convenience
+47,Specialist diets,Low-FODMAP
+48,Specialist diets,Keto-style foods
+49,Specialist diets,Allergen-friendly
+50,Specialist diets,Other dietary products
